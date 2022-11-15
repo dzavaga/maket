@@ -9,33 +9,45 @@
   <link rel="shortcut icon" href="img/norway-icon.png" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
-<div id="contact-us">
-    <form action="https://formspree.io/f/mdojprqd" method="post">
-      <h4><span>-</span>CONTACT US</h4>
-      <p>Book your journey!</p>
-      <p>
-        Complete the form below, and we will contact you soon to discuss the
-        details!
-      </p>
-      <input
-        type="text"
-        name="user-name"
-        placeholder="Your name*"
-        required
-      />
-      <input
-        type="tel"
-        name="user-phone"
-        placeholder="Your phone*"
-        required
-      />
-      <input
-        type="email"
-        name="user-email"
-        placeholder="Your email*"
-        required
-      />
-      <input type="date" name="date" required />
-      <input type="submit" value="Request a quote" />
-    </form>
-  </div>
+<div>
+  <section class="contact-us">
+    <div class="contact-us__all">
+      <div class="contact-us__main-form" id="contact-us">
+        <form action="https://formspree.io/f/mdojprqd" method="post">
+          <div class="contact-us__main-form-contact">
+            <div class="contact-us__general-title">
+              <h4 class="chapter-font-name-light"> <span class="sign-start-chapter">━</span> CONTACT US
+              </h4>
+            </div>
+            <div class="contact-us__head-title">
+              <p class="title-font-light">Book your journey!</p>
+            </div>
+            <div class="contact-us__main-form-title">
+              <p class="contact-us__main-form-description">Complete the form below, and we will contact you soon to
+                discuss the
+                details!</p>
+            </div>
+          </div>
+          <div class="contact-us__main-form-input">
+            <div class="contact-us__buttom-text">
+              <input type="text" name="user-name" placeholder="Your name*" required>
+            </div>
+            <div class="contact-us__buttom-tel">
+              <input type="tel" name="user-phone" placeholder="Your phone*" required>
+            </div>
+            <div class="contact-us__buttom-email">
+              <input type="email" name="user-email" placeholder="Your email*" required>
+            </div>
+            <div class="contact-us__buttom-date">
+              <input type="date" name="date" required>
+            </div>
+            <div class="contact-us__buttom-head">
+              <input class="contact-us__buttom-head-title" type="submit" value="request a quote">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="contact-us__main-form-empty"></div>
+    </div>
+  </section>
+</div>
